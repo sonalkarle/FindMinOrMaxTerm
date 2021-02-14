@@ -5,16 +5,15 @@ namespace FindMinOrMaxTerm
 {
     public class findMaxNum
     {
-        public int GetMaximumInteger(int first_Number, int second_Number, int third_Number)
+        public string GetMaximumString(string FirstString, string SecondString, string ThirdString)
         {
-            if (first_Number > second_Number && first_Number > third_Number)
-                return first_Number;
-            else if (second_Number > third_Number)
-                return second_Number;
+            if (FirstString.CompareTo(SecondString) > 0 && FirstString.CompareTo(ThirdString) > 0)
+                return FirstString;
+            else if (SecondString.CompareTo(ThirdString) > 0)
+                return SecondString;
             else
-                return third_Number;
+                return ThirdString;
         }
-
 
         static void Main(string[] args)
         {
