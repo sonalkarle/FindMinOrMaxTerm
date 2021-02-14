@@ -3,7 +3,7 @@ using FindMinOrMaxTerm;
 
 namespace NUnitTestProject
 {
-    public class Tests
+    public class findMaxNum
     {
         findMaxNum testMaximum;
 
@@ -17,21 +17,21 @@ namespace NUnitTestProject
         public void GivenMaxInteger_AtFirstPosition_ShouldReturnTheSameNumber()
         {
             int result = testMaximum.GetMaximumInteger(88, 60, 44);
-            Assert.AreEqual(76, result);
+            Assert.AreEqual(88, result);
         }
 
         [Test]
         public void GivenMaxInteger_AtSecondPosition_ShouldReturnTheSameNumber()
         {
             int result = testMaximum.GetMaximumInteger(70, 88, 14);
-            Assert.AreEqual(76, result);
+            Assert.AreEqual(88, result);
         }
 
         [Test]
         public void GivenMaxInteger_AtThirdPosition_ShouldReturnTheSameNumber()
         {
             int result = testMaximum.GetMaximumInteger(70, 54, 88);
-            Assert.AreEqual(76, result);
+            Assert.AreEqual(88, result);
         }
     }
 }
