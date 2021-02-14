@@ -15,7 +15,7 @@ namespace FindMinOrMaxTerm
                 return third_Number;
         }
         ///Uc2 :To find the max number in float numbers
-          public int GetMaximumInteger(int first_Number, int second_Number, int third_Number)
+          public int GetMaximumFlaot(int first_Number, int second_Number, int third_Number)
         {
             if (first_Number > second_Number && first_Number > third_Number)
                 return first_Number;
