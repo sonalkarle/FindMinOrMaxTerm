@@ -17,22 +17,22 @@ namespace NUnitTestProject
         [Test]
         public void GivenMaxString_AtFirstPosition_ShouldReturnTheSameString()
         {
-            string result = testMaximum.GetMaximumString("Zebra", "lion", "zebra");
-            Assert.AreEqual("Zebra", result);
+            string result = testMaximum.GetMaximumString("Jackfruit", "Per", "mango");
+            Assert.AreEqual("Jackfruit", result);
         }
 
         [Test]
         public void GivenMaxString_AtSeconndPosition_ShouldReturnTheSameString()
         {
-            string result = testMaximum.GetMaximumString("zebra", "Zebra", "lion");
-            Assert.AreEqual("Zebra", result);
+            string result = testMaximum.GetMaximumString("mango", "Jackfruit", "per");
+            Assert.AreEqual("Jackfruit", result);
         }
 
         [Test]
         public void GivenMaxString_AtThirdPosition_ShouldReturnTheSameString()
         {
-            string result = testMaximum.GetMaximumString("Zebra", "lion", "zebra");
-            Assert.AreEqual("Zebra", result);
+            string result = testMaximum.GetMaximumString("mango", "per", "Jackfruit");
+            Assert.AreEqual("Jackfruit", result);
         }
     }
     
