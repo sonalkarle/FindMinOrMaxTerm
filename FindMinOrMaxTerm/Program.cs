@@ -5,7 +5,7 @@ namespace FindMinOrMaxTerm
 {
     public class findMaxNum
     {
-        public int GetMaximumInteger(int first_Number, int second_Number, int third_Number)
+        public float GetMaximumInteger(float first_Number, float second_Number, float third_Number)
         {
             if (first_Number > second_Number && first_Number > third_Number)
                 return first_Number;
