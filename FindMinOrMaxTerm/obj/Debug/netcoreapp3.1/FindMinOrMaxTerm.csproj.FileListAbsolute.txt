@@ -1,0 +1,4 @@
+C:\Users\User\source\repos\FindMinOrMaxTerm\FindMinOrMaxTerm\FindMinOrMaxTerm\obj\Debug\netcoreapp3.1\FindMinOrMaxTerm.csprojAssemblyReference.cache
+C:\Users\User\source\repos\FindMinOrMaxTerm\FindMinOrMaxTerm\FindMinOrMaxTerm\obj\Debug\netcoreapp3.1\FindMinOrMaxTerm.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\FindMinOrMaxTerm\FindMinOrMaxTerm\FindMinOrMaxTerm\obj\Debug\netcoreapp3.1\FindMinOrMaxTerm.AssemblyInfo.cs
+C:\Users\User\source\repos\FindMinOrMaxTerm\FindMinOrMaxTerm\FindMinOrMaxTerm\obj\Debug\netcoreapp3.1\FindMinOrMaxTerm.csproj.CoreCompileInputs.cache
